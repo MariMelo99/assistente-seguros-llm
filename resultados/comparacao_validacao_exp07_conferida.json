@@ -1,0 +1,80 @@
+[
+  {
+    "modelo": "original",
+    "caminho_modelo": "distilgpt2",
+    "intent": "renew_insurance_policy",
+    "pergunta": "wanna extend my home insurance policy were can i do it",
+    "resposta": "i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant: i can do it\nAssistant",
+    "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+    "geracao": {
+      "max_new_tokens": 160,
+      "do_sample": false,
+      "use_cache": false
+    }
+  },
+  {
+    "modelo": "original",
+    "caminho_modelo": "distilgpt2",
+    "intent": "report_incident",
+    "pergunta": "i have tp inform of an incident will uhelp me",
+    "resposta": "i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will uhelp me\nAssistant: i have tp inform of an incident will u",
+    "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+    "geracao": {
+      "max_new_tokens": 160,
+      "do_sample": false,
+      "use_cache": false
+    }
+  },
+  {
+    "modelo": "original",
+    "caminho_modelo": "distilgpt2",
+    "intent": "track_claim",
+    "pergunta": "i got to track a claim can ya help me",
+    "resposta": "i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track a claim can ya help me\nAssistant: i got to track",
+    "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+    "geracao": {
+      "max_new_tokens": 160,
+      "do_sample": false,
+      "use_cache": false
+    }
+  },
+  {
+    "modelo": "ajustado",
+    "caminho_modelo": "C:\\Users\\Meu Computador\\Downloads\\cp2-llm\\resultados\\experimento_07\\modelo",
+    "intent": "renew_insurance_policy",
+    "pergunta": "wanna extend my home insurance policy were can i do it",
+    "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+    "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+    "geracao": {
+      "max_new_tokens": 160,
+      "do_sample": false,
+      "use_cache": false
+    }
+  },
+  {
+    "modelo": "ajustado",
+    "caminho_modelo": "C:\\Users\\Meu Computador\\Downloads\\cp2-llm\\resultados\\experimento_07\\modelo",
+    "intent": "report_incident",
+    "pergunta": "i have tp inform of an incident will uhelp me",
+    "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+    "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+    "geracao": {
+      "max_new_tokens": 160,
+      "do_sample": false,
+      "use_cache": false
+    }
+  },
+  {
+    "modelo": "ajustado",
+    "caminho_modelo": "C:\\Users\\Meu Computador\\Downloads\\cp2-llm\\resultados\\experimento_07\\modelo",
+    "intent": "track_claim",
+    "pergunta": "i got to track a claim can ya help me",
+    "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+    "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+    "geracao": {
+      "max_new_tokens": 160,
+      "do_sample": false,
+      "use_cache": false
+    }
+  }
+]

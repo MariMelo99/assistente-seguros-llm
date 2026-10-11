@@ -1,0 +1,1007 @@
+{
+  "gpu": "AMD Radeon(TM) Graphics\u0000",
+  "backend": "DirectML",
+  "criterio": "Correspondência exata após normalizar espaços",
+  "resumos": {
+    "original": {
+      "acertos": 0,
+      "total": 60,
+      "taxa_correspondencia_exata": 0.0,
+      "por_intencao": {
+        "renew_insurance_policy": {
+          "acertos": 0,
+          "total": 20
+        },
+        "report_incident": {
+          "acertos": 0,
+          "total": 20
+        },
+        "track_claim": {
+          "acertos": 0,
+          "total": 20
+        }
+      }
+    },
+    "experimento_07": {
+      "acertos": 56,
+      "total": 60,
+      "taxa_correspondencia_exata": 0.9333333333333333,
+      "por_intencao": {
+        "renew_insurance_policy": {
+          "acertos": 20,
+          "total": 20
+        },
+        "report_incident": {
+          "acertos": 19,
+          "total": 20
+        },
+        "track_claim": {
+          "acertos": 17,
+          "total": 20
+        }
+      }
+    }
+  },
+  "respostas": [
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I had an icident, could you help me notifying it?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I had an icident, could you help me notifying it?\nAssistant: I had an icident, could you help me notifying it?\nAssistant: I had an icident, could you help me notifying it?\nAssistant: I had an icident, could you help me notifying it?\nAssistant: I had an icident, could you help me notifying it?\nAssistant: I had an icident, could you help me notifying it?\nAssistant: I had an icident, could you help me notifying it?\nAssistant: I had an icident, could you help me notifying it?\nAssistant: I had an icident, could you help me notifying it?\nAssistant: I had an icident, could",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "I need to monitor a pet insurance claim, how do I do it?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I need to monitor a pet insurance claim, how do I do it?\nAssistant: I need to monitor a pet insurance claim, how do I do it?\nAssistant: I need to monitor a pet insurance claim, how do I do it?\nAssistant: I need to monitor a pet insurance claim, how do I do it?\nAssistant: I need to monitor a pet insurance claim, how do I do it?\nAssistant: I need to monitor a pet insurance claim, how do I do it?\nAssistant: I need to monitor a pet insurance claim, how do I do it?\nAssistant: I need to monitor a pet insurance claim, how do I do it?\nAssistant: I need to monitor a pet insurance claim, how do I do it?",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "could I monitor home insurance claims?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant: I can monitor home insurance claims.\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I need to report an incident, help me",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report an incident, help me\nAssistant: I need to report",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "can ya help me renew my home insurance policy",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me renew my home insurance policy\nAssistant: can ya help me",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "I would like to check the status of my travel insurance claim, I need help",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I would like to check the status of my travel insurance claim, I need help\nAssistant: I would like to check the status of my travel insurance claim, I need help\nAssistant: I would like to check the status of my travel insurance claim, I need help\nAssistant: I would like to check the status of my travel insurance claim, I need help\nAssistant: I would like to check the status of my travel insurance claim, I need help\nAssistant: I would like to check the status of my travel insurance claim, I need help\nAssistant: I would like to check the status of my travel insurance claim, I need help\nAssistant: I would like to check the status of my travel insurance claim, I need help\nAssistant: I would like to check the status of",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "where to renew my home insurance policy?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I am not a licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed licensed",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I got to notify an incident, could you help me?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help me?\nAssistant: I got to notify an incident, could you help",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "I want to monitor a life insurance claim, where do I do it?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I want to monitor a life insurance claim, where do I do it?\nAssistant: I want to monitor a life insurance claim, where do I do it?\nAssistant: I want to monitor a life insurance claim, where do I do it?\nAssistant: I want to monitor a life insurance claim, where do I do it?\nAssistant: I want to monitor a life insurance claim, where do I do it?\nAssistant: I want to monitor a life insurance claim, where do I do it?\nAssistant: I want to monitor a life insurance claim, where do I do it?\nAssistant: I want to monitor a life insurance claim, where do I do it?\nAssistant: I want to monitor a life insurance claim, where do I do it?",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I got to renew my life insurance policy, wheee do I do it?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I got to renew my life insurance policy, wheee do I do it?\nAssistant: I got to renew my life insurance policy, wheee do I do it?\nAssistant: I got to renew my life insurance policy, wheee do I do it?\nAssistant: I got to renew my life insurance policy, wheee do I do it?\nAssistant: I got to renew my life insurance policy, wheee do I do it?\nAssistant: I got to renew my life insurance policy, wheee do I do it?\nAssistant: I got to renew my life insurance policy, wheee do I do it?\nAssistant: I got to renew my life insurance policy, wheee do I do it?\nAssistant: I got to renew my life insurance policy",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I'd like to renew my health insirance policy, where to do it?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I'd like to renew my health insirance policy, where to do it?\nAssistant: I'd like to renew my health insirance policy, where to do it?\nAssistant: I'd like to renew my health insirance policy, where to do it?\nAssistant: I'd like to renew my health insirance policy, where to do it?\nAssistant: I'd like to renew my health insirance policy, where to do it?\nAssistant: I'd like to renew my health insirance policy, where to do it?\nAssistant: I'd like to renew my health insirance policy, where to do it?\nAssistant: I'd like to renew my health insirance policy, where to do it?\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "can I track an home insurance claim?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance claim?\nAssistant: I can track an home insurance",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "need tgo notify an incident will uhelp me",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I am a professional and I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional. I am a professional",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "could i report incidents",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant: could i report incidents\nAssistant",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I have to extend my home inusrance policy, how can I do it?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I have to extend my home inusrance policy, how can I do it?\nAssistant: I have to extend my home inusrance policy, how can I do it?\nAssistant: I have to extend my home inusrance policy, how can I do it?\nAssistant: I have to extend my home inusrance policy, how can I do it?\nAssistant: I have to extend my home inusrance policy, how can I do it?\nAssistant: I have to extend my home inusrance policy, how can I do it?\nAssistant: I have to extend my home inusrance policy, how can I do it?\nAssistant: I have to extend my home inusrance policy, how can I do it?\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "wanna know more about the status of my life insurance claim could ufind some information",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered nurse and I am a registered",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "I have to monitor a pet insuarnce claim, can I get some help?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I have to monitor a pet insuarnce claim, can I get some help?\nAssistant: I have to monitor a pet insuarnce claim, can I get some help?\nAssistant: I have to monitor a pet insuarnce claim, can I get some help?\nAssistant: I have to monitor a pet insuarnce claim, can I get some help?\nAssistant: I have to monitor a pet insuarnce claim, can I get some help?\nAssistant: I have to monitor a pet insuarnce claim, can I get some help?\nAssistant: I have to monitor a pet insuarnce claim, can I get some help?\nAssistant: I have to monitor a pet insuarnce claim, can",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I have to report an incident, can you help me?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help me?\nAssistant: I have to report an incident, can you help",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "I need to check the starus of my pet insurance claim, where do I do it?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I need to check the starus of my pet insurance claim, where do I do it?\nAssistant: I need to check the starus of my pet insurance claim, where do I do it?\nAssistant: I need to check the starus of my pet insurance claim, where do I do it?\nAssistant: I need to check the starus of my pet insurance claim, where do I do it?\nAssistant: I need to check the starus of my pet insurance claim, where do I do it?\nAssistant: I need to check the starus of my pet insurance claim, where do I do it?\nAssistant: I need to check the starus of my pet insurance claim, where do I do it?\nAssistant: I need to check the star",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "can ya help me to renew my home insurance policy",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me to renew my home insurance policy\nAssistant: can ya help me",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "id like to report incidents could uhelp me",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report incidents could uhelp me\nAssistant: id like to report",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "need to track insurance claimscan ya help me",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure if you can help me\nAssistant: I'm not sure",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I'd like to extend my pet insrance policy will uhelp me",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet insrance policy will uhelp me\nAssistant: I'd like to extend my pet",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "I got to monitor health insurance claims, I need assistance",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help\nAssistant: I need help",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "can i extend my home insurance policy",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant: can i extend my home insurance policy\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "is it posible to report an incident",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report an incident\nAssistant: is it posible to report",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "id like to monitor a cliam where can i do it",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i do it\nAssistant: id like to monitor a cliam where can i",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "i have to monitor a pet insurance claim can i get some help",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant: i have to monitor a pet insurance claim can i get some help\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "i got to extend my insurance policy couuld uhelp me",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld uhelp me\nAssistant: i got to extend my insurance policy couuld u",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "could you hlp me checking the status of my travel insurance claim?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm that I have a claim.\nAssistant: I can't confirm",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "I got to monitor a health insurance claim,could you help me?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant: I can help you.\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I got to notify incidewnts, help me",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts, help me\nAssistant: I got to notify incidewnts,",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "i got to extend my travel insurancee policy i need assistance",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i need assistance\nAssistant: i got to extend my travel insurancee policy i",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I'd like to notify incidents, I ned assistance",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents, I ned assistance\nAssistant: I'd like to notify incidents",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I need to notify an incident, can you help me ?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help me ?\nAssistant: I need to notify an incident, can you help",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I want to report an incident,where could I do it?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant: I want to report an incident,where could I do it?\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I need to renew my travel insuramce policy, how to do it?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I need to renew my travel insuramce policy, how to do it?\nAssistant: I need to renew my travel insuramce policy, how to do it?\nAssistant: I need to renew my travel insuramce policy, how to do it?\nAssistant: I need to renew my travel insuramce policy, how to do it?\nAssistant: I need to renew my travel insuramce policy, how to do it?\nAssistant: I need to renew my travel insuramce policy, how to do it?\nAssistant: I need to renew my travel insuramce policy, how to do it?\nAssistant: I need to renew my travel insuramce policy, how to do it?\nAssistant: I need to renew my travel insuram",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "I'd like to see the status of myauto insurance claim i need assistance",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I'd like to see the status of myauto insurance claim i need assistance\nAssistant: I'd like to see the status of myauto insurance claim i need assistance\nAssistant: I'd like to see the status of myauto insurance claim i need assistance\nAssistant: I'd like to see the status of myauto insurance claim i need assistance\nAssistant: I'd like to see the status of myauto insurance claim i need assistance\nAssistant: I'd like to see the status of myauto insurance claim i need assistance\nAssistant: I'd like to see the status of myauto insurance claim i need assistance\nAssistant: I'd like to see the status of myauto insurance claim i need assistance\nAssistant: I'd like to see the status of myauto insurance claim i need assistance",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "id like to extend my travel insurance policy can i get some heelp",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance policy can i get some heelp\nAssistant: id like to extend my travel insurance",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "i have to check ther status of my insurance claim",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check ther status of my insurance claim\nAssistant: i have to check",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "can you help me monitoring insurance claims?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance claims.\nAssistant: I can help you monitor insurance",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "my pet insurance policy will expire soon i need help to extend it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and I am a pet insurance policy holder and",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "i have to extend my travel insurance policy could uhelp me",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could uhelp me\nAssistant: i have to extend my travel insurance policy could u",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "wanna renew my pet insurance policy i need assistasnce",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant: i need helpasnce\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I hnave to inform of an incident, where could I do it?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I hnave to inform of an incident, where could I do it?\nAssistant: I hnave to inform of an incident, where could I do it?\nAssistant: I hnave to inform of an incident, where could I do it?\nAssistant: I hnave to inform of an incident, where could I do it?\nAssistant: I hnave to inform of an incident, where could I do it?\nAssistant: I hnave to inform of an incident, where could I do it?\nAssistant: I hnave to inform of an incident, where could I do it?\nAssistant: I hnave to inform of an incident, where could I do it?\nAssistant: I hnave to inform of an",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "id like to renew my health insurance policy can uhelp me",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can uhelp me\nAssistant: id like to renew my health insurance policy can u",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "is it possible to informof an incident?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to informof an incident?\nAssistant: Yes, it is possible to",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "could I report ufcking incidents?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant: I don't know.\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "i got to track an auto insurqnce claim where do i do it",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "i got to track an auto insurqnce claim where do i do it\nAssistant: i got to track an auto insurqnce claim where do i do it\nAssistant: i got to track an auto insurqnce claim where do i do it\nAssistant: i got to track an auto insurqnce claim where do i do it\nAssistant: i got to track an auto insurqnce claim where do i do it\nAssistant: i got to track an auto insurqnce claim where do i do it\nAssistant: i got to track an auto insurqnce claim where do i do it\nAssistant: i got to track an auto insurqnce claim where do i do it\nAssistant: i got to track an auto insurqnce claim where do i do it",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I need to notify an incident, will you  help me?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant: I need to notify an incident, will you  help me?\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "where do i notify an incident",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident\nAssistant: where do i notify an incident",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "ned to renew my life insurance policy where can i do it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant: ned to renew my life insurance policy where can i do it\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "id like to extend my pet insurance policy wherr do i do it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "id like to extend my pet insurance policy wherr do i do it\nAssistant: id like to extend my pet insurance policy wherr do i do it\nAssistant: id like to extend my pet insurance policy wherr do i do it\nAssistant: id like to extend my pet insurance policy wherr do i do it\nAssistant: id like to extend my pet insurance policy wherr do i do it\nAssistant: id like to extend my pet insurance policy wherr do i do it\nAssistant: id like to extend my pet insurance policy wherr do i do it\nAssistant: id like to extend my pet insurance policy wherr do i do it\nAssistant: id like to extend my pet insurance policy wherr do i do it",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "how can I get information about the status of my home insurance claim?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant: I can get information about the status of my home insurance claim.\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "my insurane policy will expire soon could uextend it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will be able to get a refund.\nAssistant: I am not sure if I will",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "track_claim",
+      "pergunta": "im trying to find information about the status of my auot insurance claim",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "I am not sure if I can find the information about the status of my auot insurance claim\nAssistant: I am not sure if I can find the information about the status of my auot insurance claim\nAssistant: I am not sure if I can find the information about the status of my auot insurance claim\nAssistant: I am not sure if I can find the information about the status of my auot insurance claim\nAssistant: I am not sure if I can find the information about the status of my auot insurance claim\nAssistant: I am not sure if I can find the information about the status of my auot insurance claim\nAssistant: I am not sure if I can find the information about the status of my auot insurance claim\nAssistant: I am not sure if I",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "renew_insurance_policy",
+      "pergunta": "need to extend my auto insurance policy wyere can i do it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant: I can do it\nAssistant",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "where to inform ofincidents",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents\nAssistant: where to inform ofincidents",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "i had an incident could i notify it",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i notify it\nAssistant: i had an incident could i",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "original",
+      "intent": "report_incident",
+      "pergunta": "I had an incident , notify it",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant: I had an incident , notify it\nAssistant:",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I had an icident, could you help me notifying it?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "I need to monitor a pet insurance claim, how do I do it?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "could I monitor home insurance claims?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I need to report an incident, help me",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "can ya help me renew my home insurance policy",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "I would like to check the status of my travel insurance claim, I need help",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "where to renew my home insurance policy?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I got to notify an incident, could you help me?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "I want to monitor a life insurance claim, where do I do it?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I got to renew my life insurance policy, wheee do I do it?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I'd like to renew my health insirance policy, where to do it?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "can I track an home insurance claim?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "need tgo notify an incident will uhelp me",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "could i report incidents",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I have to extend my home inusrance policy, how can I do it?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "wanna know more about the status of my life insurance claim could ufind some information",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "I have to monitor a pet insuarnce claim, can I get some help?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I have to report an incident, can you help me?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "I need to check the starus of my pet insurance claim, where do I do it?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "can ya help me to renew my home insurance policy",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "id like to report incidents could uhelp me",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "need to track insurance claimscan ya help me",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I'd like to extend my pet insrance policy will uhelp me",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "I got to monitor health insurance claims, I need assistance",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "can i extend my home insurance policy",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "is it posible to report an incident",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "id like to monitor a cliam where can i do it",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "i have to monitor a pet insurance claim can i get some help",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "i got to extend my insurance policy couuld uhelp me",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "could you hlp me checking the status of my travel insurance claim?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "I got to monitor a health insurance claim,could you help me?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I got to notify incidewnts, help me",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "i got to extend my travel insurancee policy i need assistance",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I'd like to notify incidents, I ned assistance",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I need to notify an incident, can you help me ?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I want to report an incident,where could I do it?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "I need to renew my travel insuramce policy, how to do it?",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "I'd like to see the status of myauto insurance claim i need assistance",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "id like to extend my travel insurance policy can i get some heelp",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "i have to check ther status of my insurance claim",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "can you help me monitoring insurance claims?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "my pet insurance policy will expire soon i need help to extend it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "i have to extend my travel insurance policy could uhelp me",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "wanna renew my pet insurance policy i need assistasnce",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I hnave to inform of an incident, where could I do it?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "id like to renew my health insurance policy can uhelp me",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "is it possible to informof an incident?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "could I report ufcking incidents?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "i got to track an auto insurqnce claim where do i do it",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track an incident, sign in to the insurer's portal, open 'My policies', select the incident and review the renewal options.",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I need to notify an incident, will you  help me?",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "where do i notify an incident",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "ned to renew my life insurance policy where can i do it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "id like to extend my pet insurance policy wherr do i do it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "how can I get information about the status of my home insurance claim?",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "my insurane policy will expire soon could uextend it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "track_claim",
+      "pergunta": "im trying to find information about the status of my auot insurance claim",
+      "referencia": "To track a claim, sign in to the insurer's portal, open 'Claims', select your claim and review its status.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": false
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "renew_insurance_policy",
+      "pergunta": "need to extend my auto insurance policy wyere can i do it",
+      "referencia": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "resposta": "To renew a policy, sign in to the insurer's portal, open 'My policies', select the policy and review the renewal options.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "where to inform ofincidents",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "i had an incident could i notify it",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    },
+    {
+      "modelo": "experimento_07",
+      "intent": "report_incident",
+      "pergunta": "I had an incident , notify it",
+      "referencia": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "resposta": "To report an incident, open 'Report an incident' on the insurer's portal, enter the incident details, review them and submit the form.",
+      "correspondencia_exata": true
+    }
+  ]
+}
