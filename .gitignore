@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Pesos dos modelos: podem ser reproduzidos pelo treinamento.
+resultados/**/modelo/
+
+# Base completa: obtida pelo script de download.
+dados/seguros_original.jsonl
+
+# Arquivos locais de configuração.
+.env
