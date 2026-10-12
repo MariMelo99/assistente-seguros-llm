@@ -8,9 +8,7 @@ import torch_directml
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 PASTA = Path(__file__).resolve().parent
-CAMINHO_MODELO = (
-    PASTA / "resultados" / "experimento_07" / "modelo"
-)
+CAMINHO_MODELO = PASTA / "resultados" / "experimento_07" / "modelo"
 
 st.set_page_config(
     page_title="Assistente de Seguros",
@@ -57,11 +55,17 @@ def carregar_modelo():
     )
 
 
+def limpar():
+    st.session_state["pergunta"] = ""
+    st.session_state.pop("ultima_resposta", None)
+
+
 st.title("Assistente de Seguros")
+
 st.write(
-    "Escreva uma solicitação em inglês para receber uma "
-    "orientação sobre comunicação de incidentes, acompanhamento "
-    "de sinistros ou renovação de apólices."
+    "Escreva uma solicitação em inglês sobre comunicação "
+    "de incidentes, acompanhamento de sinistros ou "
+    "renovação de apólices."
 )
 
 st.info(
@@ -77,17 +81,35 @@ with st.expander("Exemplos de perguntas"):
         language=None,
     )
 
-with st.form("formulario"):
-    pergunta = st.text_area(
-        "Sua solicitação em inglês",
-        placeholder="How can I renew my insurance policy?",
-        height=120,
-        max_chars=1000,
+st.text_area(
+    "Sua solicitação em inglês",
+    key="pergunta",
+    placeholder="How can I renew my insurance policy?",
+    height=120,
+    max_chars=1000,
+)
+
+coluna_enviar, coluna_limpar = st.columns(2)
+
+with coluna_enviar:
+    enviar = st.button(
+        "Gerar resposta",
+        type="primary",
+        use_container_width=True,
     )
-    enviar = st.form_submit_button("Gerar resposta")
+
+with coluna_limpar:
+    st.button(
+        "Limpar",
+        on_click=limpar,
+        use_container_width=True,
+    )
 
 if enviar:
-    pergunta = pergunta.strip()
+    pergunta = st.session_state["pergunta"].strip()
+
+    # Remove a resposta anterior, inclusive quando há erro no novo envio.
+    st.session_state.pop("ultima_resposta", None)
 
     if not pergunta:
         st.warning("Escreva uma solicitação antes de continuar.")
@@ -103,22 +125,24 @@ if enviar:
                     return_tensors="pt",
                 )
 
-                if entrada["input_ids"].shape[1] > 96:
+                tamanho_prompt = entrada["input_ids"].shape[1]
+
+                if tamanho_prompt > 96:
                     st.warning(
                         "A solicitação está muito longa. "
                         "Resuma a pergunta para continuar."
                     )
                 else:
-                    entrada = {
-                        chave: valor.to(device)
-                        for chave, valor in entrada.items()
-                    }
-
                     inicio = time.perf_counter()
 
                     with lock, torch.no_grad():
+                        entrada_gpu = {
+                            chave: valor.to(device)
+                            for chave, valor in entrada.items()
+                        }
+
                         saida = model.generate(
-                            **entrada,
+                            **entrada_gpu,
                             max_new_tokens=160,
                             do_sample=False,
                             use_cache=False,
@@ -126,9 +150,7 @@ if enviar:
                             eos_token_id=tokenizer.eos_token_id,
                         )
 
-                        novos_tokens = saida[
-                            0, entrada["input_ids"].shape[1]:
-                        ].cpu()
+                        novos_tokens = saida[0, tamanho_prompt:].cpu()
 
                     resposta = tokenizer.decode(
                         novos_tokens,
@@ -136,29 +158,25 @@ if enviar:
                         clean_up_tokenization_spaces=False,
                     ).strip()
 
-                    duracao = time.perf_counter() - inicio
-
                     st.session_state["ultima_resposta"] = {
                         "pergunta": pergunta,
                         "resposta": resposta,
                         "gpu": gpu,
-                        "duracao": duracao,
+                        "duracao": time.perf_counter() - inicio,
                     }
 
         except Exception as erro:
             st.error("Não foi possível gerar a resposta.")
             st.exception(erro)
 
-if "ultima_resposta" in st.session_state:
-    resultado = st.session_state["ultima_resposta"]
+resultado = st.session_state.get("ultima_resposta")
 
+if resultado:
     st.subheader("Resposta gerada")
     st.caption(f"Solicitação: {resultado['pergunta']}")
     st.write(
-        resultado["resposta"]
-        or "O modelo não gerou uma resposta."
+        resultado["resposta"] or "O modelo não gerou uma resposta."
     )
-
     st.caption(
         f"GPU: {resultado['gpu']} · "
         f"Tempo de geração: {resultado['duracao']:.2f} segundos"
